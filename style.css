@@ -1,0 +1,167 @@
+ .log{
+    display: inline;
+    font-weight: bold !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+nav-item active{
+    color: white;
+}
+.navbar{
+    background-color:#2979FF !important;
+    /* position:fixed;
+     top: 50px;
+     width: 100% */
+}
+.color{
+    color: white;
+    padding-left: 15px;
+    font-weight: bold;
+    padding-top: 10px !important ;
+}
+.dropdown-menu{
+    /* padding-bottom: 10px; */
+}
+.nav-link{
+    font-weight: bold !important;
+    color:white !important;
+    float: left;
+}
+.logo{
+    height: 50px;
+    padding-left: 15px;
+    /* padding-right: 300px; */
+}
+.fa-car,.fa-user{
+    font-size: 20px !important;
+    float: left !important;
+}
+.fa-truck,.fa-headphones,.fa-thumbs-o-up{
+    font-size: 50px !important;
+    margin-right: 15px;
+    color: #2979FF;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 4px 5px grey;
+    font-weight:bold;
+    justify-content: center;
+    align-items:center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2979FF;
+    margin-top: 10px;
+
+}
+.maincard{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.head1{
+    text-align: center;
+    margin: 30px;
+    /* text-decoration: underline; */
+    color:black;
+    font-style: oblique;
+}
+.NewArrivals{
+    margin-top: 50px
+}
+.card{
+    width: 250px;
+    height: auto;
+    margin-bottom: 5px;
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: #2979FF;
+    width: 120px;
+}
+.btn-outline-primary{
+    margin: 10px 1150px;
+}
+
+.footer{
+    /* width: auto 0; */
+    background-color: #2979FF  ;
+    color: white;
+    font-style: italic;
+    /* height: 120px; */
+}
+.f1{
+    padding-left: 100px;
+    padding-top: 20px;
+    
+    /* margin: 1200 0; */
+}
+.fa-facebook-official,.fa-envelope,.fa-phone-square,h4{
+    color: white;
+    
+}
+.fa-mobile{
+    font-size: 25px !important;
+    color: white;
+}
+.footer2{
+    background-color: black !important;
+    text-align: center;
+    color: seashell;
+}
+/* register */
+.form-row{
+    width: 800px !important;
+    padding-left:50px;
+    padding-top: 20px;
+    /* text-align: center; */
+    /* justify-content: center; */
+    align-items: center;
+}
+/* contactus */
+.contactus{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+p1{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.phoneoperator{
+    float: right!important;
+}
+.form-group{
+    width: 500px;
+    padding-left: 50px;
+}
+.btn-primary{
+    margin:25px
+}
+/* aboutus */
+.mission{
+    text-align: center;
+    margin-top:25px ;
+    color: slategray;
+}
+.mission1{
+    text-align: center;
+    background-color: white;
+    color: slategray;
+}
+@media screen and (max-width:600px;)(
+    .card,{
+    width:100%;
+    }
+)
+@media screen and (max-width:300px;)(
+     .form-row{
+    width:100%;
+    }
+)
